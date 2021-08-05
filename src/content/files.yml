@@ -1,0 +1,57 @@
+navigation:
+    - section: First
+      links:
+          - name: Apple
+            link: /food/apple
+    - section: Second
+      links:
+        - name: Banana
+          link: /food/banana
+        - name: Carrot
+          link: /food/carrot
+          subsection:
+            - subname: Carrot
+              sublink: /food/carrot
+            - subname: Donut
+              sublink: /food/donut
+            - subname: Macaroni
+              sublink: /food/macaroni
+            - subname: Oatmeal
+              sublink: /food/oatmeal
+    - section: Third
+      links:
+        - name: Egg
+          link: /food/egg
+          subsection:
+            - subname: Egg
+              sublink: /food/egg
+            - subname: Quesadilla
+              sublink: /food/quesadilla
+            - subname: Raspberry
+              sublink: /food/raspberry
+        
+        - name: Fish
+          link: /food/fish
+        
+        - name: Grapes
+          link: /food/grapes
+          subsection: 
+            - subname: Grapes
+              sublink: /food/grapes
+            - subname: Ham
+              sublink: /food/ham
+            - subname: Pizza
+              sublink: /food/pizza
+        
+
+        - name: Ice
+          link: /food/ice
+        
+    - section: Fourth
+      links:
+        - name: Kiwi
+          link: /food/kiwi
+        - name: Lemon
+          link: /food/lemon
+   
+        
